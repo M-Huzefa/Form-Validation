@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Summary</title>
+</head>
+<body>
+    
+    <div id="container">
+        <p id="para">This is original paragraph</p><br>
+    </div>
+    
+    <!-- Use Query string to display information in web page -->
+
+    <script>
+        const queryparam = new URLSearchParams(window.location.search);
+        const container = document.getElementById("container")
+        for (const key of queryparam){
+            const element = document.createElement("p")
+            element.innerHTML = `${key[0]} : ${key[1]}`
+            container.appendChild(element);
+        } 
+    </script>
+
+
+</body>
+</html>

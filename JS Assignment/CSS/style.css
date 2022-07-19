@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-size: 62.5%;   
+    color: #131111;  
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ############## utility classes ##################### */
+
+
+h1{ font-size: 4.5rem; font-weight: 700;}
+h2{ font-size: 3rem; font-weight: 600;}
+h3{ font-size: 2rem; font-weight: 500;}
+h4{font-size: 2rem; font-weight: 400;}
+p{font-size: 1.5rem; font-weight: 500;}
+.p1{font-size: 1.5rem; font-weight: 400;}
+
+.container{
+    width: 85%;
+    margin: 5rem auto;
+    min-width: 28rem;
+}
+
+.btn1{
+    background-color: #B6D427;
+    border-radius: .5rem;
+    color: #131111;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.2em 2.5em;
+    border: none;
+    transform: translateY(-3px);
+}
+
+.btn1:hover{background-color: #8CBE13;}
+
+.form{
+    width: 47%;
+    min-width: 24rem;
+    padding-right: 4rem;
+}
+
+.form p{
+    padding: 1em 0;
+}
+
+.form label,
+.form input, 
+.form select{
+    display: block;
+    width: 100%;
+}
+
+.form label{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: .5em;
+}
+
+.form input, 
+.form select, 
+.form option{
+    font-size: 1.5rem;
+    border: .15rem solid #F2F2F2;
+    padding: 1.2rem;
+    margin-bottom: 1em;
+}
+
+.form input:hover, 
+.form select:hover{
+    background-color: #F2F2F2;
+}
+
+/* ############################ Summary CSS ################################## */
+
+#container{
+    width: 95%;
+    margin: 3rem auto;
+}
+
+#container #para{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+#container p{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
