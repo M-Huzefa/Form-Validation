@@ -1,2 +1,2 @@
 # JS-Assignmnet
-Form Validation Assignment using JS at CureMD
+Form Validation Assignment using JS at CMD
